@@ -1,10 +1,7 @@
 var isDate = function (input) {
   //   write your code here
-	if(isNaN(Date.parse(input))){
-		return false
-	}else{
-	return true
-	}
+	
+	return !isNaN(Date.parse(input))
 };
 
 // Do not change the code below.
